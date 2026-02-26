@@ -5,7 +5,7 @@ A Power Apps solution featuring a **task manager** application, provided by [Nov
 ## Video Tutorial
 
 <!-- TODO: Replace the link below with the actual YouTube video URL -->
-[Watch the tutorial on YouTube](https://youtu.be/ZXgv55ch9-4)
+[![Watch the tutorial on YouTube](https://img.youtube.com/vi/ZXgv55ch9-4/maxresdefault.jpg)](https://youtu.be/ZXgv55ch9-4)
 
 ## Prerequisites
 
