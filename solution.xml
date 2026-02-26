@@ -1,0 +1,119 @@
+<ImportExportXml version="9.2.24113.196" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24113.196" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24113.00196">
+  <SolutionManifest>
+    <UniqueName>TaskManager</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TaskManager" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.2</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Colin_KellyCook</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Colin Kelly-Cook" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress>colin@novalogix.co.uk</EMailAddress>
+      <SupportingWebsiteUrl>https://www.novalogix.co.uk/</SupportingWebsiteUrl>
+      <CustomizationPrefix>ckc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76779</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ckc_asset" behavior="0" />
+      <RootComponent type="1" schemaName="ckc_location" behavior="0" />
+      <RootComponent type="1" schemaName="ckc_task" behavior="0" />
+      <RootComponent type="1" schemaName="ckc_workitem" behavior="0" />
+      <RootComponent type="9" schemaName="ckc_taskpriority" behavior="0" />
+      <RootComponent type="9" schemaName="ckc_workitemstate" behavior="0" />
+      <RootComponent type="20" id="{040f65ee-3a7f-ef11-ac21-002248c749a5}" behavior="0" />
+      <RootComponent type="20" id="{64b6e786-3b7f-ef11-ac21-002248c749a5}" behavior="0" />
+      <RootComponent type="62" schemaName="ckc_TaskAdminApp" behavior="0" />
+      <RootComponent type="80" schemaName="ckc_TaskAdminApp" behavior="0" />
+      <RootComponent type="300" schemaName="ckc_taskmanagermechanictablet_b3780" behavior="0" />
+      <RootComponent type="431" schemaName="ckc_asset ckc_image" behavior="0" />
+      <RootComponent type="432" schemaName="ckc_asset" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="ckc_TaskAdminApp" displayName="Task Admin App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2411.3023)">
+          <package appName="Base Custom Controls" version="9.0.2411.3023">BaseCustomControlsCore (9.0.2411.3023)</package>
+        </Required>
+        <Dependent type="60" displayName="Custom Page Example" parentDisplayName="Asset" id="{4f6863b5-dba3-ef11-8a69-0022481bea70}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2411.3023)">
+          <package appName="Base Custom Controls" version="9.0.2411.3023">BaseCustomControlsCore (9.0.2411.3023)</package>
+        </Required>
+        <Dependent type="60" displayName="Task Admin" parentDisplayName="Task" id="{3fb45e1d-367f-ef11-ac21-002248c749a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.16">PowerAppsAppFramework_Anchor (1.0.0.16)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=ckc_TaskAdminApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="ckc_TaskAdminApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
