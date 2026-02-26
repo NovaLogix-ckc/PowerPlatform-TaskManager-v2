@@ -10,19 +10,19 @@ A Power Apps solution featuring a **task manager** application, provided by [Nov
 ## Prerequisites
 
 - A **Power Platform environment** (Developer, Sandbox, or Production)
-- **Power Apps maker permissions** — you need at least the Environment Maker or System Customizer security role
+- **Power Apps maker permissions**  - you need at least the Environment Maker or System Customizer security role
 
 ## How to Import the Solution
 
 ### 1. Download the solution
 
-**Option A — Download the ready-made ZIP from Releases (recommended)**
+**Option A  - Download the ready-made ZIP from Releases (recommended)**
 
 1. Go to the [Releases](../../releases) page of this repository
 2. Download the `TaskManager_1_0_0_2.zip` file from the latest release
-3. This file is ready to import — proceed to step 2
+3. This file is ready to import  - proceed to step 2
 
-**Option B — Build the ZIP from source**
+**Option B  - Build the ZIP from source**
 
 If you cloned or downloaded the repository source, you need to create the solution ZIP yourself:
 
@@ -42,7 +42,7 @@ If you cloned or downloaded the repository source, you need to create the soluti
 4. Click **Import solution** on the command bar
 5. Click **Browse** and select the `.zip` file from step 1
 6. Click **Next**, then **Import**
-7. Wait for the import to complete — you should see a success notification
+7. Wait for the import to complete  - you should see a success notification
 
 ### 3. Open the app
 
@@ -72,7 +72,7 @@ If you cloned or downloaded the repository source, you need to create the soluti
 
 ## Support
 
-If you found this useful, please consider supporting my work — it helps me keep creating free Power Platform content!
+If you found this useful, please consider supporting my work  - it helps me keep creating free Power Platform content!
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/colin.kellycook)
 
