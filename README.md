@@ -5,7 +5,7 @@ A Power Apps solution featuring a **task manager** application, provided by [Nov
 ## Video Tutorial
 
 <!-- TODO: Replace the link below with the actual YouTube video URL -->
-[Watch the tutorial on YouTube](https://www.youtube.com/watch?v=REPLACE_ME)
+[Watch the tutorial on YouTube](https://youtu.be/ZXgv55ch9-4)
 
 ## Prerequisites
 
@@ -69,6 +69,12 @@ If you cloned or downloaded the repository source, you need to create the soluti
 | Task Admin | Custom Page |
 | Asset, Location, Task, Work Item | Custom Tables |
 | Task Priority, Work Item State | Option Sets |
+
+## Support
+
+If you found this useful, please consider supporting my work — it helps me keep creating free Power Platform content!
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/colin.kellycook)
 
 ## License
 
